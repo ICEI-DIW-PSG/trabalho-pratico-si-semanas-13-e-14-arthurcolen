@@ -22,7 +22,7 @@ body {
 
 p#welcome {
     font-size: 0.875rem;
-    color: #6b7280;
+    color:#6b7280;
 }
 
 p#user {
@@ -99,7 +99,7 @@ p#user {
     background: #f3f4f6;
 }
 
-.nav-link-style.active-item {
+.nav-link-style.active {
     background: #eff6ff;
     color: #1d4ed8;
     border-color: #bfdbfe;
@@ -140,34 +140,17 @@ p#user {
 }
 
 .page-header {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 2rem;
     gap: 1rem;
 }
 
-.add-btn {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: #111827;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
-    cursor: pointer;
-    flex-shrink: 0;
-}
-
-.add-btn:hover {
-    background: #374151;
-}
-
 /* Layout Grid */
 .dashboard-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     gap: 1.5rem;
 }
 
@@ -200,7 +183,6 @@ p#user {
 article header .card-style-title {
     justify-content: center;
 }
-
 .card-style-content {
     padding: 0 1.25rem 1.25rem;
 }
@@ -214,10 +196,6 @@ article header .card-style-title {
 .next-appointment {
     background: #eff6ff;
     border-color: #bfdbfe;
-}
-
-.next-appointment a {
-    text-decoration: none;
 }
 
 .next-appointment .card-style-title {
@@ -261,6 +239,30 @@ article header .card-style-title {
     font-size: 0.875rem;
 }
 
+.header-with-delete {
+  position: relative;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 50%;
+  right: 3rem; /* fica antes do X */
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+}
+
 /* Atividades Grid */
 .activity-item {
     padding: 1rem;
@@ -296,80 +298,6 @@ article header .card-style-title {
     border-color: #bfdbfe;
 }
 
-/* Stats Card */
-.stats-card-style .card-style-content {
-    text-align: center;
-}
-
-#stats-number {
-    font-size: 2rem;
-    color: #2563eb;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.stats-text {
-    color: #6b7280;
-    font-size: 0.875rem;
-}
-
-/* Chart */
-.chart-container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
-.chart-row {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.chart-label {
-    width: 3.5rem;
-    font-size: 0.75rem;
-    color: #6b7280;
-    flex-shrink: 0;
-}
-
-.chart-bar-bg {
-    flex: 1;
-    background: #e5e7eb;
-    border-radius: 9999px;
-    height: 0.5rem;
-}
-
-.chart-bar {
-    height: 0.5rem;
-    border-radius: 9999px;
-    transition: all 0.3s;
-}
-
-.chart-value {
-    width: 1.5rem;
-    font-size: 0.75rem;
-    color: #6b7280;
-    text-align: right;
-}
-
-/* Chart Colors */
-.bar-cyan {
-    background: #06b6d4;
-}
-
-.bar-blue {
-    background: #3b82f6;
-}
-
-.bar-blue-dark {
-    background: #1d4ed8;
-}
-
-.bar-purple {
-    background: #8b5cf6;
-}
-
 /*Footer*/
 footer {
   background-color: #f5f5f5;
@@ -381,7 +309,6 @@ footer {
   position: relative;
 }
 
-
 /* Responsividade */
 
 /* Overlay para mobile */
@@ -392,7 +319,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0,0,0,0.6);
     z-index: 998;
     opacity: 0;
     transition: opacity 0.3s;
@@ -434,24 +361,6 @@ footer {
         gap: 1rem;
     }
 
-    .add-btn {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .add-btn .btn-text {
-        display: none;
-    }
-
-    #stats-number {
-        font-size: 1.75rem;
-    }
-
-    .chart-bar-bg,
-    .chart-bar {
-        height: 0.375rem;
-    }
-
     .overlay {
         display: block;
     }
@@ -461,25 +370,8 @@ footer {
         pointer-events: auto;
     }
 }
-
 @media (min-width: 769px) and (max-width: 1279px) {
     .barra-lateral {
         width: 14rem;
-    }
-}
-
-@media (min-width: 1280px) {
-    .dashboard-grid {
-        grid-template-columns: 2fr 1fr;
-        gap: 2rem;
-    }
-
-    #stats-number {
-        font-size: 2.25rem;
-    }
-
-    .chart-bar-bg,
-    .chart-bar {
-        height: 0.75rem;
     }
 }
