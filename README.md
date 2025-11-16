@@ -16,8 +16,12 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+**Calendário Dinâmico**
+![Primeira Evidencia](./public/assets/img/evidenciaFuncionalidade1.png)
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![Segunda Evidencia](./public/assets/img/evidenciaFuncionalidade2.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+**Gráfico de Resumo Semanal (Última semana)**
+![Terceira Evidencia](./public/assets/img/evidenciaFuncionalidade3.png)
+
+![Quarta Evidencia](./public/assets/img/evidenciaFuncionalidade4.png)

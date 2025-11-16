@@ -18,13 +18,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- FullCalendar CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.2.0/dist/fullcalendar.min.css" rel="stylesheet">
-    <!-- jQuery (necessário para o FullCalendar) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.19/index.global.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.19/index.global.min.css" rel="stylesheet">
     <!-- FullCalendar JS -->
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.2.0/dist/fullcalendar.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.19/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.19/index.global.min.js'></script>
 
-    <title>Chronos One - Detalhes</title>
+    <title>Chronos One - Calendário</title>
 </head>
 
 <body>
@@ -42,6 +42,7 @@
                     <p id="user">Usuário</p>
                 </div>
             </div>
+
             <nav>
                 <ul class="nav-menu-style">
                     <li class="nav-item-style">
@@ -51,25 +52,25 @@
                         </a>
                     </li>
                     <li class="nav-item-style">
-                        <a href="calendar.html?type=work" class="nav-link-style">
+                        <a href="calendar.html?type=work" class="nav-link-style work">
                             <i class="fas fa-briefcase"></i>
                             <span>Calendário de Trabalho</span>
                         </a>
                     </li>
                     <li class="nav-item-style">
-                        <a href="calendar.html?type=personal" class="nav-link-style">
+                        <a href="calendar.html?type=personal" class="nav-link-style personal">
                             <i class="fas fa-user"></i>
                             <span>Calendário Pessoal</span>
                         </a>
                     </li>
                     <li class="nav-item-style">
-                        <a href="calendar.html?type=study" class="nav-link-style">
+                        <a href="calendar.html?type=study" class="nav-link-style study">
                             <i class="fas fa-book"></i>
                             <span>Calendário de Estudo</span>
                         </a>
                     </li>
                     <li class="nav-item-style">
-                        <a href="calendar.html?type=general" class="nav-link-style">
+                        <a href="calendar.html?type=general" class="nav-link-style general">
                             <i class="fas fa-regular fa-calendar"></i>
                             <span>Calendário Geral</span>
                         </a>
@@ -79,7 +80,7 @@
 
             <div class="separator"></div>
 
-            <a href="/config.html" class="nav-link-style">
+            <a href="/config.html" class="nav-link-style config">
                 <i class="fas fa-regular fa-gear"></i>
                 <span>Configurações</span>
             </a>
@@ -94,36 +95,23 @@
                 </div>
                 <header class="page-header">
                     <div>
-                        <h1>Detalhes do Compromisso</h1>
-                        <p>Veja os detalhes de cada atividade</p>
+                        <h1>Calendário</h1>
+                        <p>Veja seus eventos reunidos de forma dinâmica em uma só página</p>
                     </div>
+                    <button class="add-btn">
+                        <i class="fas fa-solid fa-plus"></i>
+                        <span onclick="window.location.href='register.html'" class="btn-text">Adicionar Atividade</span>
+                    </button>
                 </header>
 
                 <div class="dashboard-grid">
-                    <section class="main-section">
-                        <article class="card-style next-appointment" id="next-appointment">
-                            <script>
-                                document.addEventListener("DOMContentLoaded", function () {
-                                    getActivity();
-                                });
-                            </script>
-                        </article>
-
-                        <article class="card-style">
-                            <header class="card-style-header">
-                                <h3 class="card-style-title">
-                                    Todas as Atividades da categoria
-                                </h3>
-                            </header>
-                            <div class="row" id="activities-cards">
-                                <script>
-                                    document.addEventListener("DOMContentLoaded", function () {
-                                        loadActivitiesByCategory();
-                                    });
-                                </script>
-                            </div>
-                        </article>
-                    </section>
+                    <div id="calendar">
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                createCalendar();
+                            })
+                        </script>
+                    </div>
                 </div>
             </div>
         </main>

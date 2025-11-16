@@ -99,7 +99,7 @@ p#user {
     background: #f3f4f6;
 }
 
-.nav-link-style.active-item {
+.nav-link-style#active-item {
     background: #eff6ff;
     color: #1d4ed8;
     border-color: #bfdbfe;
@@ -319,57 +319,6 @@ article header .card-style-title {
     flex-direction: column;
     gap: 0.75rem;
 }
-
-.chart-row {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.chart-label {
-    width: 3.5rem;
-    font-size: 0.75rem;
-    color: #6b7280;
-    flex-shrink: 0;
-}
-
-.chart-bar-bg {
-    flex: 1;
-    background: #e5e7eb;
-    border-radius: 9999px;
-    height: 0.5rem;
-}
-
-.chart-bar {
-    height: 0.5rem;
-    border-radius: 9999px;
-    transition: all 0.3s;
-}
-
-.chart-value {
-    width: 1.5rem;
-    font-size: 0.75rem;
-    color: #6b7280;
-    text-align: right;
-}
-
-/* Chart Colors */
-.bar-cyan {
-    background: #06b6d4;
-}
-
-.bar-blue {
-    background: #3b82f6;
-}
-
-.bar-blue-dark {
-    background: #1d4ed8;
-}
-
-.bar-purple {
-    background: #8b5cf6;
-}
-
 /*Footer*/
 footer {
   background-color: #f5f5f5;

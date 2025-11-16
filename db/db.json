@@ -2,127 +2,160 @@
   "dados": [
     {
       "id": 1,
-      "titulo": "Café da Manhã com a Família",
-      "descricao": "Neste dia devo separar a manhã para tomar café com a minha família. Tenho que ir à padaria e comprar os itens necessários. Além dos itens necessários, posso aproveitar para comprar algo especial para tornar o momento ainda mais agradável. A melhor padaria para essa ocasião é o Café Paddock, que fica próximo à minha casa.",
-      "data": {
-        "dataInicio": "2025-10-09 08:00:00",
-        "dataFim": "2025-10-09 09:30:00"
+      "title": "Café da Manhã com a Família",
+      "description": "Neste dia devo separar a manhã para tomar café com a minha família. Tenho que ir à padaria e comprar os itens necessários. Além dos itens necessários, posso aproveitar para comprar algo especial para tornar o momento ainda mais agradável. A melhor padaria para essa ocasião é o Café Paddock, que fica próximo à minha casa.",
+      "date": {
+        "start": "2025-11-10T08:00",
+        "end": "2025-11-10T09:30"
       },
       "local": "Casa",
-      "categoria": "Tarefa"
+      "category": "Tarefa"
     },
     {
       "id": 2,
-      "titulo": "Reunião do Projeto X",
-      "descricao": "Reunião semanal da equipe do Projeto X para discutir o andamento das tarefas, revisar entregas e planejar as próximas etapas. Será apresentado o protótipo da nova interface e discutidos os prazos de finalização.",
-      "data": {
-        "dataInicio": "2025-10-11 14:00:00",
-        "dataFim": "2025-10-11 15:30:00"
+      "title": "Reunião do Projeto X",
+      "description": "Reunião semanal da equipe do Projeto X para discutir o andamento das tarefas, revisar entregas e planejar as próximas etapas. Será apresentado o protótipo da nova interface e discutidos os prazos de finalização.",
+      "date": {
+        "start": "2025-11-11T14:00",
+        "end": "2025-11-11T15:30"
       },
       "local": "Escritório Central - Sala 203",
-      "categoria": "Trabalho"
+      "category": "Trabalho"
     },
     {
       "id": 3,
-      "titulo": "Sessão de Estudos de Python",
-      "descricao": "Reservar a noite para estudar programação em Python, focando em manipulação de arquivos e consumo de APIs. Preparar anotações e resolver pelo menos 5 exercícios práticos. Separar material de apoio e manter o celular em modo silencioso para melhor concentração.",
-      "data": {
-        "dataInicio": "2025-10-12 19:00:00",
-        "dataFim": "2025-10-12 21:30:00"
+      "title": "Sessão de Estudos de Python",
+      "description": "Reservar a noite para estudar programação em Python, focando em manipulação de arquivos e consumo de APIs. Preparar anotações e resolver pelo menos 5 exercícios práticos. Separar material de apoio e manter o celular em modo silencioso para melhor concentração.",
+      "date": {
+        "start": "2025-11-12T19:00",
+        "end": "2025-11-12T21:30"
       },
       "local": "Biblioteca Municipal",
-      "categoria": "Estudo"
+      "category": "Estudo"
     },
     {
       "id": 4,
-      "titulo": "Consulta Médica",
-      "descricao": "Consulta de rotina com o Dr. Fernando para revisão dos exames anuais e avaliação geral da saúde. Levar todos os exames laboratoriais recentes.",
-      "data": {
-        "dataInicio": "2025-10-15 10:30:00",
-        "dataFim": "2025-10-15 11:30:00"
+      "title": "Consulta Médica",
+      "description": "Consulta de rotina com o Dr. Fernando para revisão dos exames anuais e avaliação geral da saúde. Levar todos os exames laboratoriais recentes.",
+      "date": {
+        "start": "2025-11-15T10:30",
+        "end": "2025-11-15T11:30"
       },
       "local": "Clínica Vida Saudável",
-      "categoria": "Saude"
+      "category": "Saude"
     },
     {
       "id": 5,
-      "titulo": "Sessão de Cinema",
-      "descricao": "Sessão de cinema com os amigos para assistir à estreia do novo filme do anime Kimetsu no Yaiba (Demon Slayer). Comprar os ingressos com antecedência e chegar 30 minutos antes para evitar filas.",
-      "data": {
-        "dataInicio": "2025-10-17 20:00:00",
-        "dataFim": "2025-10-17 22:30:00"
+      "title": "Sessão de Cinema",
+      "description": "Sessão de cinema com os amigos para assistir à estreia do novo filme do anime Kimetsu no Yaiba (Demon Slayer). Comprar os ingressos com antecedência e chegar 30 minutos antes para evitar filas.",
+      "date": {
+        "start": "2025-11-18T20:00",
+        "end": "2025-11-18T22:30"
       },
       "local": "Cine Shopping Central",
-      "categoria": "Lazer"
+      "category": "Lazer"
     },
     {
       "id": 6,
-      "titulo": "Corrida do Cruzeiro",
-      "descricao": "Acontecerá a corrida do Cruzeiro, um evento esportivo que reúne corredores de todas as idades e níveis de habilidade. A corrida terá início às 6h da manhã, com largada na Praça da Estação. O percurso será de 10 km, passando por pontos turísticos da cidade. É uma ótima oportunidade para praticar esportes, socializar e apreciar a paisagem urbana. Como prêmio, haverá medalhas para os primeiros colocados e brindes para todos os participantes (camisa do cabuloso e bolsa esportiva).",
-      "data": {
-        "dataInicio": "2025-10-19 06:00:00",
-        "dataFim": "2025-10-19 09:00:00"
+      "title": "Corrida do Cruzeiro",
+      "description": "Acontecerá a corrida do Cruzeiro, um evento esportivo que reúne corredores de todas as idades e níveis de habilidade. A corrida terá início às 6h da manhã, com largada na Praça da Estação. O percurso será de 10 km, passando por pontos turísticos da cidade. É uma ótima oportunidade para praticar esportes, socializar e apreciar a paisagem urbana. Como prêmio, haverá medalhas para os primeiros colocados e brindes para todos os participantes (camisa do cabuloso e bolsa esportiva).",
+      "date": {
+        "start": "2025-12-19T06:00",
+        "end": "2025-12-19T09:00"
       },
-      "local": "Praça da Estação",
-      "categoria": "Atividade Fisica"
+      "local": "Praça da Estação - Lado Sul",
+      "category": "Atividade Fisica"
     },
     {
-      "id": 7,
-      "titulo": "Consulta Oftalmologista",
-      "descricao": "Consulta trimestral para avaliação da condição atual do astigmatismo da minha avó. Buscar ela com antecedência e também planejar chegar mais cedo, pois o trânsito estará ruim.",
-      "data": {
-        "dataInicio": "2025-10-21 08:30:00",
-        "dataFim": "2025-10-21 10:30:00"
-      },
-      "local": "Hospital Life Center",
-      "categoria": "Saude"
-    },
-    {
-      "titulo": "Passeio com a Claudia",
-      "descricao": "Marquei de ir com a Cláudia no museu que ela queria na semana que vem. Preciso lavar o carro no dia anterior, além disso tenho que comprar uma blusa.",
-      "data": {
-        "dataInicio": "2025-11-16T20:00",
-        "dataFim": "2025-11-17T02:00"
+      "title": "Passeio com a Claudia",
+      "description": "Marquei de ir com a Cláudia no museu que ela queria na semana que vem. Preciso lavar o carro no dia anterior, além disso tenho que comprar uma blusa.",
+      "date": {
+        "start": "2025-11-16T20:00",
+        "end": "2025-11-17T02:00"
       },
       "local": "CCBB",
-      "categoria": "Lazer",
+      "category": "Lazer",
       "id": 8
     },
     {
-      "titulo": "Atividade de DIW",
-      "descricao": "Entregar a semana 11 e 12 de DIW",
-      "data": {
-        "dataInicio": "2025-11-09T00:00",
-        "dataFim": "2025-11-09T23:59"
+      "title": "Atividade de DIW",
+      "description": "Entregar a semana 11 e 12 de DIW",
+      "date": {
+        "start": "2025-11-09T00:00",
+        "end": "2025-11-09T23:59"
       },
       "local": "Casa",
-      "categoria": "Tarefa",
+      "category": "Tarefa",
       "id": 9
+    },
+    {
+      "title": "Final do Campeonato de Volei",
+      "description": "Na sexta que vem, é a final do campeonato Arcanjos, jogaremos na final contra o Sada. Devo estudar o esquema tático da terceira rotação 5x1 deles, pois não conheço bem. Levar comida leve, água gelada e dormir bem na noite anterior.",
+      "date": {
+        "start": "2025-11-21T18:00",
+        "end": "2025-11-21T22:00"
+      },
+      "local": "Ginasio Riacho",
+      "category": "Tarefa",
+      "id": 10
+    },
+    {
+      "title": "Aprofundamento em Docker",
+      "description": "Estudar afundo como funciona a estrutura e arquitetura completa do Docker. Fazer um lab de no mínimo 2h depois",
+      "date": {
+        "start": "2025-11-12T17:00",
+        "end": "2025-11-12T21:00"
+      },
+      "local": "Puc Minas - São Gabriel",
+      "category": "Estudo",
+      "id": 11
+    },
+    {
+      "title": "Atualização Projeto X",
+      "description": "Repasse com os gestores de todos os passos realizados para o andamento do Projeto X e as próximas etapas e passos a serem tomados.\nO PowerPoint já está criado",
+      "date": {
+        "start": "2025-11-19T09:00",
+        "end": "2025-11-19T13:00"
+      },
+      "local": "Sala de Reunião - 19.25",
+      "category": "Trabalho",
+      "id": 12
+    },
+    {
+      "title": "Trabalho de ATP",
+      "description": "Fazer um estudo das etapas para a criação do Jogo Snake para o trabalho de ATP.\nDesmembrar cada método a ser criado e fazer um cronograma de implementação.\nDevo colocar as informações no repositório da dupla.",
+      "date": {
+        "start": "2025-11-14T22:00",
+        "end": "2025-11-15T00:00"
+      },
+      "local": "Casa",
+      "category": "Estudo",
+      "id": 13
     }
   ],
   "dadosMeta": {
     "Tarefa": {
-      "descricao": "Esta categoria é destinada para tarefas e afazeres do dia a dia, como compras, pagamentos, manutenção da casa, ou outras responsabilidades pessoais.",
+      "description": "Esta categoria é destinada para tarefas e afazeres do dia a dia, como compras, pagamentos, manutenção da casa, ou outras responsabilidades pessoais.",
       "icone": "fa-solid fa-list"
     },
     "Trabalho": {
-      "descricao": "Esta categoria organiza compromissos profissionais, reuniões, prazos de entrega, tarefas de equipe ou projetos específicos.",
+      "description": "Esta categoria organiza compromissos profissionais, reuniões, prazos de entrega, tarefas de equipe ou projetos específicos.",
       "icone": "fa-solid fa-briefcase"
     },
     "Estudo": {
-      "descricao": "Esta categoria é destinada a compromissos acadêmicos ou de aprendizado, como aulas, revisões, leituras, cursos ou estudos individuais.",
+      "description": "Esta categoria é destinada a compromissos acadêmicos ou de aprendizado, como aulas, revisões, leituras, cursos ou estudos individuais.",
       "icone": "fa-solid fa-book"
     },
     "Saude": {
-      "descricao": "Esta categoria é destinada para compromissos relacionados à saúde, como consultas, exames e cuidados pessoais.",
+      "description": "Esta categoria é destinada para compromissos relacionados à saúde, como consultas, exames e cuidados pessoais.",
       "icone": "fa-solid fa-stethoscope"
     },
     "Lazer": {
-      "descricao": "Esta categoria inclui atividades de entretenimento e momentos de descontração, como cinema, viagens, encontros e hobbies.",
+      "description": "Esta categoria inclui atividades de entretenimento e momentos de descontração, como cinema, viagens, encontros e hobbies.",
       "icone": "fa-solid fa-film"
     },
     "Atividade Fisica": {
-      "descricao": "Esta categoria registra compromissos relacionados a exercícios e esportes, como academia, corrida ou yoga.",
+      "description": "Esta categoria registra compromissos relacionados a exercícios e esportes, como academia, corrida ou yoga.",
       "icone": "fa-solid fa-dumbbell"
     }
   }

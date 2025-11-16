@@ -18,6 +18,8 @@
 
   "dependencies": {
 
+    "fullcalendar": "^6.1.19",
+
     "json-server": "^0.17.0"
 
   },
