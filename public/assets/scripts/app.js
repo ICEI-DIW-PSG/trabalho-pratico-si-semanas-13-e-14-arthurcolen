@@ -104,7 +104,6 @@ async function getNextAppointment() {
         const metaRes = await fetch(META_URL);
         const meta = await metaRes.json();
         const today = new Date();
-        console.log(today)
 
         let nextActivity = null;
         let mindate = null;
