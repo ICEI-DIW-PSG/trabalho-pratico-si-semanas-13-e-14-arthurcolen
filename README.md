@@ -9,12 +9,16 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Arthur Isaque Colen de Paula
+- Matricula: 897597
+- Proposta de projeto escolhida: Agenda Organizacional - Chronos One
+- Breve descrição sobre seu projeto: A ideia desse projeto é prover uma agenda que permita organizar seu dia a dia, independente do seu objetivo, já que a aplicação é versátil, abrigando trabalho, estudos e vida pessoal.
 
 **Print da tela com a implementação**
+
+Nesta etapa, foram implementados calendários dinâmicos, dividos por tópicos (Trabalho, Estudo, Pessoal e Geral), esses calendários exibem todas as atividades pertencentes a cada um desses tópicos. Nele não é possível editar, adicionar ou deletar, por motivos de padronização dos eventos, mas permite que os eventos sejam listados de forma dinâmica.
+Além disso, foi implementado um dráfico de barras laterais que mostra um resumo dos eventos da última semana, baseado nos dias da semana, de segunda a sexta.
+Algumas outras funcionalidades já existentes foram aprimoradas, como a exibição do próximo compromisso no carrossel, a exibição dos eventos na aba "Atividades", a padronização dos campos do json em inglês, etc.
 
 **Calendário Dinâmico**
 ![Primeira Evidencia](./public/assets/img/evidenciaFuncionalidade1.png)
